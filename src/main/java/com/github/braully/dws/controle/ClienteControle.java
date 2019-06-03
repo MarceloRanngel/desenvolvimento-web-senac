@@ -38,6 +38,7 @@ public class ClienteControle {
     @Autowired
     ClienteDAO clienteDAO;
 
+//    @PreAuthorize("hasRole('ROLE_ADMIN')")
     public void salvarCliente() {
         String mensagem = "Cliente Salvo: " + cliente;
         System.out.println(mensagem);
